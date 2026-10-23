@@ -1,13 +1,10 @@
 [gd_scene format=3 uid="uid://cq1m3sbbi5t16"]
 
-[ext_resource type="Script" uid="uid://ddx27uin3o2gy" path="res://button.gd" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://dwthi7gslyxcr" path="res://Circle.png" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://8u526hmb3ltx" path="res://node_2d.gd" id="2_epypp"]
 
-[node name="Node2D" type="Node2D" unique_id=571263475]
-
-[node name="Button" type="Button" parent="." unique_id=1174620498]
-offset_left = 20.0
-offset_top = 34.0
-offset_right = 227.0
-offset_bottom = 65.0
-text = "hello, world! I'm a button!"
-script = ExtResource("1_wtcfe")
+[node name="Sprite2D" type="Sprite2D" unique_id=1838024513]
+position = Vector2(135, 77)
+scale = Vector2(0.17575757, 0.17575757)
+texture = ExtResource("2_0e48y")
+script = ExtResource("2_epypp")
