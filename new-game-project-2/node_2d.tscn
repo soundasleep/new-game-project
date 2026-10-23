@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cq1m3sbbi5t16"]
 
-[ext_resource type="Texture2D" uid="uid://dwthi7gslyxcr" path="res://Circle.png" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://dwthi7gslyxcr" path="res://Sprites/Circle.png" id="2_0e48y"]
 [ext_resource type="Script" uid="uid://8u526hmb3ltx" path="res://node_2d.gd" id="2_epypp"]
 
 [node name="Sprite2D" type="Sprite2D" unique_id=1838024513]
